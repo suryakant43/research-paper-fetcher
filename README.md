@@ -20,9 +20,11 @@ A Python tool to fetch research papers from PubMed and identify papers with phar
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/research-paper-fetcher.git
+git clone https://github.com/suryakant43/research-paper-fetcher.git
 cd research-paper-fetcher
 
 ### Install dependencies using Poetry:
+poetry install
 
-bashpoetry install
+## Run this command
+poetry run get-papers-list "cancer immunotherapy" --max-results 30 --debug --file output.csv

@@ -58,7 +58,7 @@ class CompanyDetector:
     def is_non_academic(cls, affiliation: str) -> bool:
         """Check if an affiliation is non-academic."""
 
-        print(f"DEBUG affiliation check: {affiliation}")
+        # print(f"DEBUG affiliation check: {affiliation}")
 
         affiliation_lower = affiliation.lower()
 
